@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".account_fragment">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Follow Sosmed "
+        android:textSize="30dp"
+        android:textStyle="bold">
+    </TextView>
+    <TextView
+        android:id="@+id/instagram"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Instagram"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp">
+    </TextView>
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Whatsapp = +6281247421775"
+    android:textSize="20dp"
+    android:textStyle="bold">
+</TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Facebook = Wahid Radikal Akhlak"
+        android:textSize="20dp"
+        android:textStyle="bold">
+    </TextView>
+
+</LinearLayout>
